@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rajdhani", sans-serif;
+}
+
+
+
+
+body {
+
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7); 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 0;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .logo img {
+    height: 100px;
+    width: 100px;
+  }
+
+.title{
+   
+    height: 340px;
+    width: 100%;
+    text-align: center;
+    color: #ddd;
+    background-image: url(img/mars.png)
+}
+
+#h1{
+    padding-top: 160px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(166, 109, 3, 0.396)
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.product-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-item .price {
+    font-size: 1em;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+
+.title-products{
+    color: white;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+
+.label-men {
+    position: center; 
+    top: 10px; 
+    left: 10px; 
+    background-color: #c55800; 
+    color: #fff; 
+    padding: 5px 10px; 
+    border-radius: 8px; 
+    font-size: 14px; 
+}
+
+.label-women {
+    position: center; 
+    top: 10px; 
+    left: 10px; 
+    background-color:#d76800; 
+    color: #fff; 
+    padding: 5px 10px; 
+    border-radius: 8px; 
+    font-size: 14px; 
+}
+
+.label-kids {
+    position: center; 
+    top: 10px; 
+    left: 10px; 
+    background-color: #e38400; 
+    color: #fff; 
+    padding: 5px 10px; 
+    border-radius: 8px; 
+    font-size: 14px; 
+}
+
+.section-products{
+    background-color: black;
+}
+
+
