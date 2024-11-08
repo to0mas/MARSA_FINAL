@@ -46,7 +46,7 @@ header {
     width: 100%;
     text-align: center;
     color: #ddd;
-    background-image: url(img/mars.png)
+    background-image: url(img/mars.png);
 }
 
 #h1{
