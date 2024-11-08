@@ -32,6 +32,7 @@ header {
    padding: 0;
     max-width: 1200px;
     margin: auto;
+      width: 100%;
   }
   
   .logo img {
@@ -66,7 +67,7 @@ header {
     border-radius: 8px;
     width: 300px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px :(0, 0, 0, 0.1);
     transition: transform 0.5s;
 }
 
